@@ -1,0 +1,27 @@
+<head>
+  <meta charset="utf-8">
+  <title>{{title}}</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="/vendor/bootstrap/bootstrap.min.css">
+  
+  <link rel="icon" type="image/png" href="/icons/attendance.png">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Твой CSS (необязательно) -->
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  {{> nav}}
+
+  <main class="container my-4">
+    {{{ body }}}
+  </main>
+
+  <!-- Bootstrap JS (bundle с Popper) -->
+  <script src="/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+
+  <!-- Твой JS -->
+  <script src="/js/app.js" defer></script>
+</body>

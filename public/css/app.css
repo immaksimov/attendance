@@ -1,0 +1,13 @@
+body {
+  background-color: #f8f9fa; /* светло-серый фон */
+}
+
+.pill-btn {
+  border-radius: 50rem;
+  padding: 0.5rem 1rem;
+}
+
+.btn-red   { background-color: #dc3545; color: #fff; }
+.btn-green { background-color: #198754; color: #fff; }
+
+.hidden { display: none !important; }

@@ -1,0 +1,14 @@
+<nav class="border-bottom py-2 mb-3">
+  <div class="container">
+    <div class="d-flex gap-2">
+      <a href="/kafs?mode=students"
+         class="btn flex-fill text-center {{#if (eq activeMode 'students')}}btn-primary{{else}}btn-outline-primary{{/if}}">
+        Students
+      </a>
+      <a href="/kafs?mode=teachers"
+         class="btn flex-fill text-center {{#if (eq activeMode 'teachers')}}btn-primary{{else}}btn-outline-primary{{/if}}">
+        Teachers
+      </a>
+    </div>
+  </div>
+</nav>
